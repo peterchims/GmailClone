@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --light-gray:#f8f9fa;
+    --middle-gray:#e9ecef;
+    --dark-gray:#495057;
+    --light-blue:#d0ebff;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background: color #f6f8fc;
+}
+.flex{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: var(--dark-gray);
+}
+i{
+    cursor: pointer;
+}
+.hover:hover{
+    transition:all 0.3s;
+    background-color: #d8dbdd;
+    cursor: pointer;
+}
+.header{
+    padding: 10px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.middle-area {
+    margin-right: 12%;
+}
+.left-area img:hover {
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    padding: 8px;
+}
+.menu .icon{
+    height: 2px;
+    width: 20px;
+    background-color:#464f58;
+    margin: 2px 0px;
+}
+.mail-text {
+    font-size: 20px;
+    letter-spacing: 0.7px;
+    color: var(--dark-gray);
+}
+.mail-text:hover {
+    cursor: pointer;
+}
+.search{
+    position: absolute;
+    left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    padding: 3px;
+    width: 700px;
+    border-radius: 10px;
+    background-color:var(--middle-gray);
+    ;
+     
+}
