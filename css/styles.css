@@ -122,3 +122,62 @@ i{
     outline-color: none;
     color: #fff;
 }
+
+/* Nav Containr styling */
+.nav-container {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -20px;
+    padding: 12px;
+    gap:40px;
+}
+.nav-top span{
+    width:75%;
+    background-color: var(--light-blue);
+    padding: 20px 32px;
+    border-radius:15px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav-top span i{
+    font-size:24px;
+}
+.nav_middle ul li {
+    font-size: 14px;
+    list-style: none;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    padding: 8px;
+}
+.nav_middle ul li a {
+    display: flex;
+    gap: 12px;
+    letter-spacing: 1px;
+}
+.nav_middle ul li a i,.nav-bottom i{
+width:18px;
+height: 18px;
+font-size: 20px;
+}
+ul li:last-child{
+    margin-bottom: 0;
+}
+.nav_middle ul li:first-child span {
+    display: flex;
+    justify-content: space-between;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #e7f5ff ;
+}
+.nav_middle ul li:first-child span{
+    margin-right: 8px;
+}
+.nav_middle ul li:first-child a, .nav_middle ul li:first-child span{
+    font-weight: 600;
+    color: #000;
+}
+.nav_middle ul li:hover {
+    background-color: #e7f5ff;
+}
