@@ -141,20 +141,20 @@ clear: both;
     padding: 12px;
     gap:40px;
     position: fixed;
-    top: 20px;
+top: 120px;
     width: 25vh;
 }
 .nav-top span{
     width:75%;
     background-color: var(--light-blue);
-    padding: 20px 32px;
+    padding: 18px 22px;
     border-radius:15px;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 700;
     cursor: pointer;
 }
 .nav-top span i{
-    font-size:24px;
+    font-size:15px;
 }
 .nav_middle ul li {
     font-size: 14px;
@@ -181,8 +181,6 @@ clear: both;
         justify-content: space-around;
         align-items: center;
         width: 0%;
-        position: relative;
-        top: 40px;
 }
 /* hover Navigation */
 .hover-nav{
@@ -317,7 +315,6 @@ clear: both;
 .hover-nav-4 .draft{
     font-size: 14px;
     list-style: none;
-    margin-left: -5px;
     margin-bottom: 4px;
 }
 .hover-nav-5{
@@ -426,15 +423,20 @@ font-size: 20px;
     justify-content: space-between;
     padding-left: 10px;
 }
+.nav-bottom span{
+    color: var(--light-blue);
+    cursor:default;
+
+}
 .nav-bottom i{
     transition: all 0.3s;
     width: 20px;
     height: 20px;
-    color: var(--dark-gray);
+    color: var(--light-blue);
     padding: 8px;
     border-radius: 50%;
+    margin-left :70px;
 }
-
 
 /* Main content styling */
 .main_content{
