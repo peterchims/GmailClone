@@ -10,6 +10,8 @@
 <link rel="stylesheet" href="./Font-6/css/fontawesome.min.css">
 </head>
 <body>
+   
+    <section>
     <header class="header">
         <div class="left-area flex">
             <div class="menu hover">
@@ -26,16 +28,17 @@
     <input type="search" placeholder="Search mail">
 </div>
 <div class="right-area flex">
+    <i class="fa-regular fa-circle-question"></i>
     <i class="fa-solid fa-gear"></i>
     <i class="fas fa-th"></i>
-    <i class="fa-regular fa-circle-question"></i>
-    <span>
-        <i class="fa-solid fa-user-tie"></i>
-    </span>
+    <div >
+    <span class="profile"> <i class="fa-solid fa-user-tie profile"></i></span>
+    </div>
+   
 </div>
         </div>
     </header>
-
+ 
     <!-- Sidebar Navigation -->
      <nav>
         <div class="nav-container">
@@ -44,41 +47,100 @@
             </div>
             <div class="nav_middle">
                 <ul>
-                    <li>
-                        <a href="#">
-                            <i class="fa-solid fa-inbox"></i> Inbox
-                        </a>
-                        <span>4</span>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-regular fa-star"></i> Starred
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="far fa-clock"></i>Snoozed
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-regular fa-paper-plane"></i>Sent
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-regular fa-file"></i>Draft
-                    </li>
+                    <div class="hover-nav">
+                        <li class="inbox">
+                            <a href="#" class="inb">
+                                            <i class="fa-solid fa-inbox"></i> Inbox
+                                        </a>
+                                        <span>4</span>
+                                        </li>
+                                  
+                    </div>
+                    <div class="hover-nav-1">
+                        <li>
+                            <a href="#">
+                                <i class="fa-regular fa-star"></i> Starred
+                            </a>
+                        </li>
+                    </div>
+                    <div class="hover-nav-2">
+                        <li>
+                            <a href="#">
+                                <i class="far fa-clock"></i>Snoozed
+                            </a>
+                        </li>
+                    </div>
+                   
+                    <div class="hover-nav-3">
+                        <li>
+                            <a href="#">
+                                <i class="fa-regular fa-paper-plane"></i>Sent
+                        </li>
+                    </div>
+                 <div class="hover-nav-4">
+                    <li class="draft">
+                        <a href="#" class="inb">
+                            <i class="fa-regular fa-file"></i> Draft
+                                    </a>
+                                    <span>14</span>
+                                    </li>
+                 </div>
+                 <div class="hover-nav-5">
                     <li>
                         <a href="#">
                             <i class="fa-solid fa-chevron-down"></i> More
                     </li>
+                 </div>
+                    
+                    
                 </ul>
             </div>
+            
             <div class="nav-bottom">
                 <span>Labels</span>
                 <i class="fa-solid fa-plus"></i>
             </div>
         </div>
      </nav>
+ 
+           
+     <main class="main_content">
+        <div class="top">
+            <div class="left">
+                <div class="check">
+                    <i class="fa-regular fa-square-check"></i>
+                    <span> <i class="fa-solid fa-check"></i></span>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <div class="right">
+                <div class="sort_numbers hover">
+                    1-50 of 94
+                </div>
+                <i class="fa-solid fa-chevron-right" class="chev content-icon"></i>
+            </div>
+        </div>
+        <div class="messages_area">
+            <div class="messages">
+                <div class="messages_left">
+                    <div class="check check_2">
+                        <i class="fa-regular fa-square-check"></i>
+                        <span><i class="fa-solid fa-check"></i> </span>
+                    </div>
+                    <i class="fa-solid fa-check hover star"></i>
+                    <span>Twitter</span>
+                </div>
+                <div class="messages_content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nostrum ducimus veniam commodi mollitia odit necessitatibus iusto nam quibusdam rerum explicabo, corporis 
+                    dolore exercitationem quam! Obcaecati id magni doloremque consectetur?
+                </div>
+                <div class="message_date">Dec,20</div>
+            </div>
+        </div>
+     </main>
+
+    </section>
 </body>
 </html>
