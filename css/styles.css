@@ -442,8 +442,8 @@ font-size: 20px;
 .main_content{
     position: absolute;
 top: 120px;
-right: 3%;
-width: 85%;
+left: 10%;
+width: 86%;
 border-top-left-radius: 10px;
 border-top-right-radius: 10px;
 background-color: var(--middle-gray);
@@ -582,15 +582,145 @@ padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    bottom: 5px;
+    left: 20px;
+
 }
-/* header primary section */
+/* header primary styling */
 .primary{
     position: relative;
-   left: 30px;
+   right: 35px;
+   bottom: 15px;
    display: flex;
    justify-content: space-around;
    align-items: center;
-   border-bottom: 2px solid red;
+   color: #2e2e2e;
+   padding: 7px;
+    width: 30%;
+    transition: 0.5s ease;
+   border-bottom: 4px solid #5185d3;;
+}
+.primary .primary-text{
+    color: #5185d3;
+    padding: 10px;
+    font-weight: 200;
+    font-size: 15px;
+    margin-right: 80px;
+   
+}
+.primary i{
+    font-size: 20px;
+    color: #5185d3;
+}
+.primary:hover{
+    background-color: #dddddd;
+    color: #2e2e2e;
+    padding: 7px;
+    transition: 0.5s ease;
+    border-radius: 5px;
+}
+/* header promotions styling */
+.promotions{
+    position: relative;
+   right: 20px;
+   bottom: 15px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   color: #2e2e2e;
+   padding: 7px;
+    width: 30%;
+    transition: 0.5s ease;
+}
+.promotions .promotions-text{
+    color: #2e2e2e;
+    padding: 10px;
+    font-weight: 200;
+    font-size: 15px;
+    margin-right: 80px;
+   
+}
+.promotions i{
+    font-size: 20px;
+    color: #2e2e2e;
+}
+.promotions:hover{
+    background-color: #dddddd;
+    color: #2e2e2e;
+    padding: 7px;
+    transition: 0.5s ease;
+    border-radius: 5px;
+}
+/* socials styling */
+.social{
+    position: relative;
+   right: 20px;
+   bottom: 15px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   color: #2e2e2e;
+   padding: 7px;
+    width: 30%;
+    transition: 0.5s ease;
+}
+.social .social-text{
+    color: #2e2e2e;
+    padding: 10px;
+    font-weight: 200;
+    font-size: 15px;
+    margin-right: 80px;
+   
+}
+.social i{
+    font-size: 20px;
+    color: #2e2e2e;
+}
+.social:hover{
+    background-color: #dddddd;
+    color: #2e2e2e;
+    padding: 7px;
+    transition: 0.5s ease;
+    border-radius: 5px;
+}
+/* updates styling */
+.updates{
+    position: relative;
+   right: 20px;
+   bottom: 15px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   color: #2e2e2e;
+   padding: 7px;
+    width: 30%;
+    transition: 0.5s ease;
+}
+.updates .update-text{
+    color: #2e2e2e;
+    padding: 10px;
+    font-weight: 200;
+    font-size: 15px;
+    margin-right: 80px;
+   
+}
+.updates i{
+    font-size: 20px;
+    color: #2e2e2e;
+    background: transparent;
+}
+.updates:hover{
+    background-color: #dddddd;
+    color: #2e2e2e;
+    padding: 7px;
+    transition: 0.5s ease;
+    border-radius: 5px;
+}
+.hr-divider{
+    position:relative;
+    color: rgb(228, 228, 228);
+    bottom: 42px;
 }
 .messages:hover{
     cursor: pointer;
